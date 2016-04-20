@@ -1,0 +1,4 @@
+name: LuckyBlockRace
+version: 0.0.1
+main: info.mymc.lbr.LuckyBlockRace
+commands:

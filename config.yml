@@ -1,0 +1,38 @@
+#----------------------------------------------#
+# LuckyBlockRace Configuration File            #
+#                                              #
+# Comments:                                    #
+# Ich weiß, das ganze in Englisch zu haben     #
+# ist komisch, jedoch für mich einfacher       #
+# umzusetzen. Z.b. ist ja ganz Spigot in       #
+# Englisch. Desweiteren zeigt eclipse deutsch  #
+# als fehlerhaft an. Und Englisch ist einfach  #
+# besser.                                      #
+# ---------------------------------------------#
+#----------------------------------------------#
+# Main-Configuration                           #
+#----------------------------------------------#
+
+main:
+  # Lucky-Block-Name default: sand
+  block-name: 'sand'
+  # Spawnpoint for the Lobby
+  spawn:
+    world: 'skypvp'
+    x: 0
+    y: 87
+    z: 0
+  max-players: 4
+  countdown-players: 2
+  
+#----------------------------------------------#
+# Random-Configuration                         #
+#                                              #
+# Basicially just the Effects of lucky blocks  #
+#----------------------------------------------#
+
+random-effects:
+  debug:
+    - 'item:cactus:64:Ich bin Timon &2.P'
+    - 'item:redstone:20'
+    - 'entity:ZOMBIE:Test'
